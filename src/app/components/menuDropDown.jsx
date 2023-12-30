@@ -1,3 +1,4 @@
+// MenuDropDown.jsx
 import React from 'react';
 import NavLink from './NavLink';
 
@@ -16,16 +17,16 @@ const navLinks = [
     }
 ];
 
-function menuDropDown(){
-  return (
-    <ul className='flex flex-col py-4 items-center'>
-        {navLinks.map((link, index) => (
+const MenuDropDown = () => {
+    return (
+        <ul className='flex flex-col py-4 items-center'>
+            {navLinks.map((link, index) => (
                 <li key={index}> 
                     <NavLink href={link.href} title={link.title} />
                 </li>
             ))}
-    </ul>
-  );
+        </ul>
+    );
 };
 
-export default menuDropDown;
+export default MenuDropDown;

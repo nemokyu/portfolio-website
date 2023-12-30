@@ -1,15 +1,14 @@
-import Link from "next/link"
-// ReUse this component to reduce code redundancy 
+// NavLink.jsx
+import Link from 'next/link';
 
-function NavLink(href, title) {
+const NavLink = ({ href, title }) => {
     return (
-            <Link href={href} 
-            className='block py-2 pl-3 pr-4 text-[#b9b9b9] sm:text-xl md:p-0 rounded 
-             hover:text-white'>
+        <Link href={href}>
+            <span className='block py-2 pl-3 pr-4 text-[#b9b9b9] sm:text-xl md:p-0 rounded hover:text-white cursor-pointer'>
                 {title}
-            </Link>
+            </span>
+        </Link>
     );
-}
-
+};
 
 export default NavLink;
