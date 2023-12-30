@@ -1,5 +1,7 @@
+"use client"
 import React from 'react';
 import Image from 'next/image';
+import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
   return (
@@ -10,7 +12,22 @@ const Hero = () => {
                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#176B87] via-[#A076F9] to-[#190482]'>
                     Hello, I'm {" "}
                    </span>
-                    Nomin Ganzorig
+                   <TypeAnimation
+                    sequence={[
+                      'Nomin',
+                      1000,
+                      'Web Developer',
+                      1000,
+                      'UX/UI designer',
+                      1000,
+                      'Mobile Developer',
+                      1000
+                    ]}ß
+                      wrapper="span"
+                      speed={50}
+                      style={{ fontSize: '2em', display: 'inline-block' }}
+                      repeat={Infinity}
+                    />
                 </h1>
                 <p className='text-[#ADB7BE] text-lg sm:text-lg lg:text-xl mb-6'>
                     I'm a full-stack developer and a Computer Science and Statistics student 
