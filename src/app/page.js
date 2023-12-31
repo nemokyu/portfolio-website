@@ -13,7 +13,6 @@ export default function Home() {
         <Hero />
         <About />
         <Projects />
-        {/* <EmailSection /> */}
       </div>
       <Footer />
     </main>
