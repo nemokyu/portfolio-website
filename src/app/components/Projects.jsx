@@ -7,7 +7,7 @@ const projectsData = [
   {
     id: 1,
     title: "React Portfolio Website",
-    description: "developed using React, Next.js, TailwingCSS, Framer Motion",
+    description: "This responsive portfolio website was developed using React, Next.js, TailwingCSS, Framer Motion ",
     image: "/images/projects/portfolioWeb.png",
     gitUrl: "https://github.com/nemokyu/portfolio-website.git",
     deployLink: "https://nemokyu.github.io/Simon-Interactive-Game/",
@@ -32,43 +32,43 @@ const projectsData = [
   {
     id: 3,
     title: "Interactive Simon Game",
-    description: "Project 3 description",
+    description: "developed using JavaScript to practice my understanding of event listener, audioPlayer and for fun :)",
     image:"/images/projects/simonGame.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/nemokyu/Simon-Interactive-Game.git",
     deployLink: "https://nemokyu.github.io/Simon-Interactive-Game/",
 
   },
-  {
-    id: 4,
-    title: "Lunch Scheduler App",
-    description: "Project 4 description",
-    image: "/images/placeholder.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    deployLink: "https://nemokyu.github.io/Simon-Interactive-Game/",
+  // {
+  //   id: 4,
+  //   title: "Lunch Scheduler App",
+  //   description: "Project 4 description",
+  //   image: "/images/placeholder.png",
+  //   tag: ["All", "Mobile"],
+  //   gitUrl: "/",
+  //   deployLink: "https://nemokyu.github.io/Simon-Interactive-Game/",
 
-  },
-  {
-    id: 5,
-    title: "One project in C",
-    description: "Authentication and CRUD operations",
-    image: "/images/placeholder.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    deployLink: "https://nemokyu.github.io/Simon-Interactive-Game/",
+  // },
+  // {
+  //   id: 5,
+  //   title: "One project in C",
+  //   description: "Authentication and CRUD operations",
+  //   image: "/images/placeholder.png",
+  //   tag: ["All", "Web"],
+  //   gitUrl: "/",
+  //   deployLink: "https://nemokyu.github.io/Simon-Interactive-Game/",
 
-  },
-  {
-    id: 6,
-    title: "Hahha",
-    description: "Project 5 description",
-    image: "/images/placeholder.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    deployLink: "https://nemokyu.github.io/Simon-Interactive-Game/",
+  // },
+  // {
+  //   id: 6,
+  //   title: "Hahha",
+  //   description: "Project 5 description",
+  //   image: "/images/placeholder.png",
+  //   tag: ["All", "Web"],
+  //   gitUrl: "/",
+  //   deployLink: "https://nemokyu.github.io/Simon-Interactive-Game/",
 
-  },
+  // },
 ];
 
 const ProjectsSection = () => {

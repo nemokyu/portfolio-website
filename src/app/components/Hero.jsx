@@ -11,7 +11,7 @@ const Hero = () => {
             <div className ="col-span-7 place-self-center text-center sm:text-left">
                 <h1 className = "text-white mb-4 sm: text-4xl sm:text-5xl sm:self-center lg:text-6xl font-extrabold font-mononoki">
                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#93A5CF]  to-[#E4EfE9]'>
-                    Hi•ᴗ•, I'm {""}
+                    Hi•ᴗ•, I&apos;m {""}
                    </span>
                    <br />
                    <TypeAnimation
@@ -39,7 +39,10 @@ const Hero = () => {
                     />
                 </h1>
                 <p className='text-[#ADB7BE] text-lg sm:text-lg lg:text-xl mb-6 font-mononoki'>
-                    I'm a full-stack developer at <a href="https://riceapps.org/"  target="_blank" rel="noopener noreferrer" className='text-[#93A5CF] hover:text-white'>RiceApps</a>  and Computer Science, Statisics student at <a href="https://engineering.rice.edu/"  target="_blank" rel="noopener noreferrer" className='text-[#93A5CF] hover:text-white'>Rice University</a>, minoring in Data Science.
+                     I&apos;m a full-stack developer at <a href="https://riceapps.org/"  target="_blank" rel="noopener noreferrer" className='text-[#93A5CF] hover:text-white'>RiceApps</a> 
+                     and Computer Science, Statisics student at 
+                     <a href="https://engineering.rice.edu/"  target="_blank" rel="noopener noreferrer" className='text-[#93A5CF] hover:text-white'>Rice University</a>,
+                      minoring in Data Science. Reach out for more ☻!
                     
                 </p>
                 <div >
@@ -53,13 +56,13 @@ const Hero = () => {
             </div>
             <div classname ="cols-span-5 place-self-center lg: mt-0">
                 <div className ="rounded-full place-self-center bg-transparent w-[250px] h-[250px] lg:w-[400px] lg:h[400px] relative">
-                    <Image 
-                        src = "/images/placeholder.png"
-                        alt = "hero image"
+                    {/* <Image 
+                        src = "/sf-animation.gif"
+                        alt = "sf animation"
                         className = "place-self-center rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                         width = {500}
                         height = {500}
-                    />
+                    /> */}
                 </div>
                 
             </div>
