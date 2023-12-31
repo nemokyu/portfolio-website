@@ -8,28 +8,28 @@ const projectsData = [
     id: 1,
     title: "React Portfolio Website",
     description: "developed using React, Next.js, TailwingCSS, Framer Motion",
-    image: "/images/placeholder.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    image: "/images/projects/portfolioWeb.png",
+    gitUrl: "https://github.com/nemokyu/portfolio-website.git",
+    deployLink: "https://nemokyu.github.io/Simon-Interactive-Game/",
   },
   {
     id: 2,
-    title: "Tip Calculator App?",
-    description: "Project 2 description",
-    image: "/images/placeholder.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Feedback Evalution via Automated Testing",
+    description: "Autopmnated test-case generator built using Java",
+    image: "/images/projects/feat.png",
+    gitUrl: "",
+    deployLink: "https://nemokyu.github.io/Simon-Interactive-Game/",
+    desc: "This project was completed as part of Program Design course at Rice Univ. Hence, source code cannot be shared due to confidentiality reasons. But be sure to check out Program Design Report I have made :))!",
   },
   {
     id: 3,
-    title: "Simon Game",
+    title: "Interactive Simon Game",
     description: "Project 3 description",
-    image: "/images/placeholder.png",
+    image:"/images/projects/simonGame.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/nemokyu/Simon-Interactive-Game.git",
+    deployLink: "https://nemokyu.github.io/Simon-Interactive-Game/",
+
   },
   {
     id: 4,
@@ -38,7 +38,8 @@ const projectsData = [
     image: "/images/placeholder.png",
     tag: ["All", "Mobile"],
     gitUrl: "/",
-    previewUrl: "/",
+    deployLink: "https://nemokyu.github.io/Simon-Interactive-Game/",
+
   },
   {
     id: 5,
@@ -47,7 +48,8 @@ const projectsData = [
     image: "/images/placeholder.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    deployLink: "https://nemokyu.github.io/Simon-Interactive-Game/",
+
   },
   {
     id: 6,
@@ -56,7 +58,8 @@ const projectsData = [
     image: "/images/placeholder.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    deployLink: "https://nemokyu.github.io/Simon-Interactive-Game/",
+
   },
 ];
 
@@ -74,10 +77,9 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+      𓆝 𓆟 𓆞 𓆝 𓆟 My Projects  𓆝 𓆟 𓆞 𓆝 𓆟
       </h2>
-      s
-      <ul ref={ref} className="grid md:grid-cols-5 gap-8 md:gap-12">
+      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {projectsData.map((project, index) => (
           <motion.li
             key={index}
@@ -92,7 +94,8 @@ const ProjectsSection = () => {
               description={project.description}
               imgUrl={project.image}
               gitUrl={project.gitUrl}
-              previewUrl={project.previewUrl}
+              deployLink={project.deployLink}
+              desc ={project.desc}
             />
           </motion.li>
         ))}
