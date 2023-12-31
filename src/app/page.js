@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import Projects from "./components/Projects";
 import Footer from './components/Footer';
-import EmailSection from './components/EmailMe';
+// import EmailSection from './components/EmailMe';
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#25354f] ">
@@ -13,7 +13,7 @@ export default function Home() {
         <Hero />
         <About />
         <Projects />
-        <EmailSection />
+        {/* <EmailSection /> */}
       </div>
       <Footer />
     </main>
