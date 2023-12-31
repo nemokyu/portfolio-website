@@ -30,7 +30,7 @@ const Hero = () => {
                       1000,
                       'resilient',
                       1000,
-                      'motivated',
+                      'hard-working',
                       1000, 
                     ]}ß
                       wrapper="span"
