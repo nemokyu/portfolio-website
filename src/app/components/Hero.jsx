@@ -20,10 +20,18 @@ const Hero = () => {
                       1000,
                       'Software Developer',
                       1000,
-                      'UX researcher',
+                      'dedicated',
+                      1000,
+                      'driven',
+                      1000,
+                      'Nomin Ganzorig',
                       1000,
                       'Data Analyst',
-                      1000
+                      1000,
+                      'resilient',
+                      1000,
+                      'motivated',
+                      1000, 
                     ]}ß
                       wrapper="span"
                       speed={10}
@@ -46,7 +54,7 @@ const Hero = () => {
             <div classname ="cols-span-5 place-self-center lg: mt-0">
                 <div className ="rounded-full place-self-center bg-transparent w-[250px] h-[250px] lg:w-[400px] lg:h[400px] relative">
                     <Image 
-                        src =
+                        src = "/images/placeholder.png"
                         alt = "hero image"
                         className = "place-self-center rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                         width = {500}
