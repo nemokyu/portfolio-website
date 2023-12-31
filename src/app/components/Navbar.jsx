@@ -2,8 +2,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import NavLink from './NavLink';
-import MenuDropDown from './menuDropDown'; // Renamed for conventional naming
-
+import MenuDropDown from './menuDropDown';
 const navLinks = [
 {
     title: "About",
