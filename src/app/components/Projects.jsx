@@ -19,7 +19,15 @@ const projectsData = [
     image: "/images/projects/feat.png",
     gitUrl: "",
     deployLink: "https://nemokyu.github.io/Simon-Interactive-Game/",
-    desc: "This project was completed as part of Program Design course at Rice Univ. Hence, source code cannot be shared due to confidentiality reasons. But be sure to check out Program Design Report I have made :))!",
+    desc: (<p className="text-white"> 
+              This project was completed as part of 
+              <a href="https://courses.rice.edu/admweb/!SWKSCAT.cat?p_action=COURSE&p_term=201410&p_crn=17062" className="text-blue-300 hover:text-white hover:underline">Program Design course at Rice Univ</a>. 
+              Hence, source code cannot be shared due to confidentiality reasons. 
+              But be sure to check out 
+              <a href="https://nemokyu.github.io/Simon-Interactive-Game/" className="text-blue-300 hover:text-white hover:underline"> 
+                <b className="text-blue-300">Program Design Report</b>
+              </a> I have made!
+              </p>),
   },
   {
     id: 3,
