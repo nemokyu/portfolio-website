@@ -19,8 +19,8 @@ const Contact = () => {
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
           I&apos;m 
-          Seeking summer 2024 opportunities, I&apos;m  ready to broaden my horizons and add new chapters to my professional story.
-          Reach out to me!
+          seeking summer 2024 opportunities, ready to broaden my horizons and add new chapters to my professional story.
+          Feel free to reach out!
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="github.com">
