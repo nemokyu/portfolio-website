@@ -33,9 +33,9 @@ const Skills = () => {
     };
   
     return (
-      <section className="skill-absolute top-4" id="projects">
+      <section className=" flex-col md:pt-0 md:mt-0 mt-20 pt-40 sm:mt-0 sm:pt-20" id="projects">
         
-        <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12 ">
+        <h2 className=" text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12 ">
          Tech Skills 
         </h2>
         <ul ref={ref} className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
@@ -51,6 +51,16 @@ const Skills = () => {
             </motion.li>
           ))}
         </ul>
+        <div className="items-center flex justify-center pt-2">
+        <div className=" bg-gradient-to-t
+             from-blue-800 via-transparent to-transparent 
+             rounded-full h-40 w-40 blur-lg hover:from-gray-700 hover:bg-gradient-to-b">
+              
+             </div>
+            
+
+        </div>
+
       </section>
     );
   };

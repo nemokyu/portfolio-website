@@ -68,7 +68,7 @@ const Contact = () => {
             </div>
           </div>
 
-
+          <h5  className="text-xl underline text-white my-2 pt-5"> !EMAIL COMPONENT IS CURRENTLY BROKEN!</h5>
           <div className="grid md:grid-col-1">
             {emailSubmitted ? (
               <p className="text-green-500 text-sm mt-2">
@@ -131,13 +131,12 @@ const Contact = () => {
                 </form>
               )}
       </div>
-          
-          </div>
-          <div>
-            <div className="items-center xl:block bg-gradient-to-t
-             from-blue-900 via-transparent to-transparent 
-             rounded-full h-80 w-80 blur-lg hover:from-gray-700 hover:bg-gradient-to-b"></div>
-          </div>
+      <div class="flex flex-row items-center justify-center pt-4">
+          <img src="icon.png" width="200" height="200" alt="logo" />
+      </div>
+            
+             
+    </div>
     </section>
     
   )

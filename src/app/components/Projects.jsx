@@ -2,6 +2,7 @@
 import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import { motion, useInView } from "framer-motion";
+import {Skills} from "./Skills";
 
 const projectsData = [
   {
@@ -83,7 +84,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section className= "prof-absolute bottom-4 flex h-screen justify-center items-center" id="projects">
+    <section className= "flex-col h-screen justify-center items-center" id="projects">
        
       <div className="">
         <h2 className=" text-center md:text-4xl font-bold text-white mt-8 mb-8 md:mb-12 font-mononoki">
@@ -111,6 +112,7 @@ const ProjectsSection = () => {
           ))}
         </ul>
       </div>
+
     </section>
   );
 };

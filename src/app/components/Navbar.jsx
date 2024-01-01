@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import NavLink from './NavLink';
 import MenuDropDown from './menuDropDown';
+import Image from 'next/image';
 const navLinks = [
 {
     title: "Home",
@@ -37,10 +38,10 @@ const handleNavLinkClick = (e, href) => {
 
 return (
     
-    <nav className='fixed top-0 left-0 right-0 z-10 bg-[#1e1f32] bg-opacity-80'>
-        <div className='flex flex-wrap items-center justify-between mx-auto pr-4 mr-5 '>
-            <Link href={"/"} className='text-3xl md:text-7xl px-10 font-semibold text-white'> 
-
+    <nav className='fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-80'>
+        <div className='flex flex-wrap items-center justify-between mx-auto pr-4 mr-5 pt-3'>
+            <Link href={"/"} className='text-3xl md:text-7xl px-10 font-semibold text-white pt-1'> 
+                <Image src="icon.png" alt="logo" height="50" width="50"/>
              </Link>
             <div className="mobile-menu block md:hidden">
                 {navbarOpen ? (
