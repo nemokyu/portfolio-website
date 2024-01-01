@@ -14,11 +14,11 @@ export default function Home() {
       <div className='container my-24 mx-auto px-12 py-6 flex-col'>
         <Hero />
         <About />
-        <Projects className=" flex-col" />
-        <Skills className="flex-col"/>
-        <Contact className='grid-col-1'/>
+        <Projects />
+        <Skills />
+        <Contact />
       </div>
-      <Footer />
+      <Footer className="px-12 py-6"/>
     </main>
     
   )

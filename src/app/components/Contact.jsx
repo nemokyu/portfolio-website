@@ -6,137 +6,46 @@ import Link from "next/link";
 import Image from "next/image";
 
 const Contact = () => {
-  const [emailSubmitted, setEmailSubmitted] = useState(false);
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const data = {
-      email: e.target.email.value,
-      subject: e.target.subject.value,
-      message: e.target.message.value,
-    };
-    const JSONdata = JSON.stringify(data);
-    const endpoint = "/api/send";
-
-    // Form the request for sending data to the server.
-    const options = {
-      // The method is POST because we are sending data.
-      method: "POST",
-      // Tell the server we're sending JSON.
-      headers: {
-        "Content-Type": "application/json",
-      },
-      // Body of the request is the JSON data we created above.
-      body: JSONdata,
-    };
-
-    const response = await fetch(endpoint, options);
-    const resData = await response.json();
-
-    if (response.status === 200) {
-      console.log("Message sent.");
-      setEmailSubmitted(true);
-    }
-  };
 
   return (
     <section className="pt-20" id="contact">
 
-        <div className="md:hidden bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
-        <div className="hidden md:block  bg-gradient-to-b from-blue-900 via-transparent to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
-        
+      <div className="md:hidden bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
+      <div className="hidden md:block  bg-gradient-to-b from-blue-900 via-transparent to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+      
 
-        <div className="z-10 grid grid-col-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 z-10">
 
-          <div className=' md:grid-col-1'>
-            <h5 className="text-xl font-bold text-white my-2">
-            Let&apos;s Connect
-            </h5>
-            <p className="text-[#ADB7BE] mb-4 max-w-md">
-              {" "}
-              I&apos;m 
-              seeking summer 2024 opportunities, ready to broaden my horizons and add new chapters to my professional story.
-              Feel free to reach out!
-            </p>
-            <div className="socials flex flex-row gap-2">
+        <div className='col-span-1'>
+          <h5 className="text-xl font-bold text-white my-2 ">
+            Let's Connect
+          </h5>
+          <p className="text-[#ADB7BE] mb-4 max-w-md">
+            I'm seeking summer 2024 opportunities, ready to broaden my horizons and add new chapters to my professional story.
+            Find me at: 
+          </p>
+          <div className="socials flex flex-row gap-2">
             <Link href="https://github.com/nemokyu">
-              <Image src={GithubIcon} alt="Github Icon" />
+              <Image src={GithubIcon} alt="Github Icon" className="opacity-100 hover:opacity-70" />
             </Link>
             <Link href="https://www.linkedin.com/in/nominganzoo23/">
-              <Image src={LinkedinIcon} alt="Linkedin Icon" />
+              <Image src={LinkedinIcon} alt="Linkedin Icon" className="opacity-100 hover:opacity-70" />
             </Link>
-            </div>
+            <Link href="mailto: ng53@rice.edu">
+              <Image src="email-icon.png" width="45" height = "45" alt="email Icon" className="opacity-100 hover:opacity-70" />
+            </Link>
           </div>
+        </div>
 
-          <h5  className="text-xl underline text-white my-2 pt-5"> !EMAIL COMPONENT IS CURRENTLY BROKEN!</h5>
-          <div className="grid md:grid-col-1">
-            {emailSubmitted ? (
-              <p className="text-green-500 text-sm mt-2">
-                Email sent successfully!
-              </p>
-                ) : (
-              <form className="flex flex-col" onSubmit={handleSubmit}>
-                <div className="mb-6">
-                  <label
-                    htmlFor="email"
-                    className="text-white block mb-2 text-sm font-medium"
-                  >
-                    Your email
-                  </label>
-                  <input
-                    name="email"
-                    type="email"
-                    id="email"
-                    required
-                    className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                    placeholder="jacob@google.com"
-                  />
-                </div>
-                <div className="mb-6">
-                  <label
-                    htmlFor="subject"
-                    className="text-white block text-sm mb-2 font-medium"
-                  >
-                    Subject
-                  </label>
-                  <input
-                    name="subject"
-                    type="text"
-                    id="subject"
-                    required
-                    className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                    placeholder="Just saying hi"
-                  />
-                </div>
-                <div className="mb-6">
-                  <label
-                    htmlFor="message"
-                    className="text-white block text-sm mb-2 font-medium"
-                  >
-                    Message
-                  </label>
-                  <textarea
-                    name="message"
-                    id="message"
-                    className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                    placeholder="Let's talk about..."
-                  />
-                </div>
-                <button
-                  type="submit"
-                  className=" hover:text-blue-600 bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
-                >
-                  Send Message
-                </button>
-                </form>
-              )}
-      </div>
-      <div class="flex flex-row items-center justify-center pt-4">
-          <img src="icon.png" width="200" height="200" alt="logo" />
-      </div>
-            
-             
-    </div>
+        {/* This div will only be displayed on md screens and larger */}
+        <div className='flex sm:justify-end md:col-span-1'>
+          <div className="inline-block">
+            <Image src="icon.png" alt="Logo drawing" width="300" height="300" className="opacity-50 hover:opacity-80"/>
+          </div>
+        </div>
+ 
+        </div>
+
     </section>
     
   )

@@ -57,7 +57,6 @@ const Skills = () => {
              rounded-full h-40 w-40 blur-lg hover:from-gray-700 hover:bg-gradient-to-b">
               
              </div>
-            
 
         </div>
 

@@ -2,7 +2,7 @@
 import React from 'react';
 import "@fontsource/mononoki/700.css"; 
 import { TypeAnimation } from 'react-type-animation';
-import background from './background';
+
 
 const Hero = () => {
   return (
@@ -68,7 +68,6 @@ const Hero = () => {
             </div>
             <div classname ="cols-span-5 place-self-center lg: mt-0">
                 <div className ="rounded-full place-self-center bg-transparent w-[250px] h-[250px] lg:w-[400px] lg:h[400px] relative">
-                    {background}
                 </div>
                 
             </div>
