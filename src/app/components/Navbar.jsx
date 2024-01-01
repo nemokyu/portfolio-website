@@ -14,14 +14,24 @@ const navLinks = [
 },
 {
     title: "Contact",
-    href: "#contact"
+    href: "#skills"
 }
 ];
 
 const Navbar = () => {
 const [navbarOpen, setNavbarOpen] = useState(false);
 
+const handleNavLinkClick = (e, href) => {
+    e.preventDefault(); // Prevent default anchor behavior
+    const section = document.querySelector(href);
+    if (section) {
+        section.scrollIntoView({ behavior: 'smooth' }); // Smooth scroll to the section
+    }
+    setNavbarOpen(false); // Close the navbar if it's open
+};
+
 return (
+    
     <nav className='fixed top-0 left-0 right-0 z-10 bg-[#1e1f32] bg-opacity-80'>
         <div className='flex flex-wrap items-center justify-between mx-auto p4-4 mr-5 '>
             <Link href={"/"} className='text-3xl md:text-5xl px-10 font-semibold text-white'>✩</Link>

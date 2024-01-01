@@ -24,7 +24,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, deployLink, desc }) =
           }
         </div>
       </div>
-      <div className="text-white rounded-b-xl mt-3 bg-[#181818] py-2 px-4 h-[130px]">
+      <div className="text-white rounded-b-xl mt-3 bg-[#181818] py-2 px-4">
         <a target="_blank" rel="noopener noreferrer"
            href={deployLink} className="text-white hover:text-[#ADB7BE]">
           <h5 className="text-xl font-semibold mb-2">{title} ➫</h5>
