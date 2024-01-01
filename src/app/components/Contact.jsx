@@ -21,7 +21,7 @@ const Contact = () => {
             Let's Connect
           </h5>
           <p className="text-[#ADB7BE] mb-4 max-w-md">
-            I'm seeking summer 2024 opportunities, ready to broaden my horizons and add new chapters to my professional story.
+            I&apos;m seeking summer 2024 opportunities, ready to broaden my horizons and add new chapters to my professional story.
             Find me at: 
           </p>
           <div className="socials flex flex-row gap-2">
