@@ -18,7 +18,7 @@ const Contact = () => {
 
         <div className='col-span-1'>
           <h5 className="text-xl font-bold text-white my-2 ">
-            Let's Connect
+            Let&apos;s Connect
           </h5>
           <p className="text-[#ADB7BE] mb-4 max-w-md">
             I&apos;m seeking summer 2024 opportunities, ready to broaden my horizons and add new chapters to my professional story.
