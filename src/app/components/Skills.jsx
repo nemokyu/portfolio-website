@@ -33,7 +33,7 @@ const Skills = () => {
     };
   
     return (
-      <section className=" flex-col md:pt-0 md:mt-0 mt-20 pt-40 sm:mt-0 sm:pt-20" id="projects">
+      <section className=" flex-col z-0" id="projects">
         
         <h2 className=" text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12 ">
          Tech Skills 
@@ -52,10 +52,9 @@ const Skills = () => {
           ))}
         </ul>
         <div className="items-center flex justify-center pt-2">
-        <div className=" bg-gradient-to-t
+        <div className="hidden lg:block bg-gradient-to-t
              from-blue-800 via-transparent to-transparent 
              rounded-full h-40 w-40 blur-lg hover:from-gray-700 hover:bg-gradient-to-b">
-              
              </div>
 
         </div>

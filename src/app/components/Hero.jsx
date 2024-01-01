@@ -19,7 +19,7 @@ const Hero = () => {
                     sequence={[
                       'Nomin Ganzorig',
                       1000,
-                      'Software Developer',
+                      'a programmer',
                       1000,
                       'driven individual',
                       1000,

@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import Footer from './components/Footer';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import ViewMore from './components/ViewMore';
 // import EmailSection from './components/EmailMe';
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <About />
         <Projects />
+        <ViewMore />
         <Skills />
         <Contact />
       </div>

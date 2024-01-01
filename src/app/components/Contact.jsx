@@ -17,7 +17,7 @@ const Contact = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 z-10">
 
         <div className='col-span-1'>
-          <h5 className="text-xl font-bold text-white my-2 ">
+          <h5 className="text-xl font-bold text-white my-2 font- ">
             Let&apos;s Connect
           </h5>
           <p className="text-[#ADB7BE] mb-4 max-w-md">

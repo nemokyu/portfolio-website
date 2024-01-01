@@ -34,11 +34,47 @@ const projectsData = [
     title: "Interactive Simon Game",
     description: "developed using JavaScript to practice my understanding of event listener, audioPlayer and for fun :)",
     image:"/images/projects/simonGame.png",
-    tag: ["All", "Web"],
     gitUrl: "https://github.com/nemokyu/Simon-Interactive-Game.git",
     deployLink: "https://nemokyu.github.io/Simon-Interactive-Game/",
 
   },
+  {
+    id: 4,
+    title: "Tip Calculator App",
+    description: "implements a simple math and UI design to simplify and smoothen the process of splitting the bill",
+    image:"/images/placeholder.png",
+    gitUrl: "",
+    deployLink: "https://nemokyu.github.io",
+    desc: (<p className="text-white"> 
+            Visual Coming Soon!
+            </p>)
+
+  },
+  {
+    id: 5,
+    title: "Augmented reality measuring app",
+    description: "iOS app that measures distance using augmented reality",
+    image:"/images/placeholder.png",
+    gitUrl: "",
+    deployLink: "https://nemokyu.github.io",
+    desc: (<p className="text-white"> 
+            Visual Coming Soon!
+            </p>)
+
+  },
+  {
+    id: 5,
+    title: "Sentiment Analysis ",
+    description: "Twitter Sentiment Analysis App!",
+    image:"/images/placeholder.png",
+    gitUrl: "",
+    deployLink: "https://nemokyu.github.io",
+    desc: (<p className="text-white"> 
+            Visual Coming Soon!
+            </p>)
+
+  },
+
 ];
 
 const ProjectsSection = () => {
