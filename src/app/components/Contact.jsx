@@ -59,10 +59,10 @@ const Contact = () => {
               Feel free to reach out!
             </p>
             <div className="socials flex flex-row gap-2">
-            <Link href="github.com">
+            <Link href="https://github.com/nemokyu">
               <Image src={GithubIcon} alt="Github Icon" />
             </Link>
-            <Link href="linkedin.com">
+            <Link href="https://www.linkedin.com/in/nominganzoo23/">
               <Image src={LinkedinIcon} alt="Linkedin Icon" />
             </Link>
             </div>
