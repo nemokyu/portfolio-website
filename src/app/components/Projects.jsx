@@ -84,6 +84,7 @@ const ProjectsSection = () => {
 
   return (
     <section className= "flex h-screen justify-center items-center" id="projects">
+       
       <div className="">
         <h2 className=" text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         𓆝 𓆟 𓆞 𓆝 𓆟 My Projects  𓆝 𓆟 𓆞 𓆝 𓆟

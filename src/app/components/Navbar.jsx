@@ -14,7 +14,7 @@ const navLinks = [
 },
 {
     title: "Contact",
-    href: "#skills"
+    href: "#contact"
 }
 ];
 

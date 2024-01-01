@@ -16,11 +16,7 @@ export default function Home() {
         <About />
         <Projects />
         <Skills />
-        <div className='grid md:grid-cols-2 pt-10' id="skills" >
-          <Contact className='grid-col-1'/>
-          
-        </div>
-        
+        <Contact className='grid-col-1'/>
       </div>
       <Footer />
     </main>

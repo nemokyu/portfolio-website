@@ -1,14 +1,15 @@
 "use client"
 import React from 'react';
-import Image from 'next/image';
 import "@fontsource/mononoki/700.css"; 
 import { TypeAnimation } from 'react-type-animation';
+import background from './background';
 
 const Hero = () => {
   return (
     <section className="h-screen flex items-center justify-center">
         <div className ="grid grid-cols-1 sm:grid-cols-12">
             <div className ="col-span-7 place-self-center text-center sm:text-left">
+                
                 <h1 className = "text-white mb-4 sm: text-4xl sm:text-5xl sm:self-center lg:text-6xl font-extrabold font-mononoki">
                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#93A5CF]  to-[#E4EfE9]'>
                     Hi•ᴗ•, I&apos;m {""}
@@ -71,15 +72,7 @@ const Hero = () => {
             </div>
             <div classname ="cols-span-5 place-self-center lg: mt-0">
                 <div className ="rounded-full place-self-center bg-transparent w-[250px] h-[250px] lg:w-[400px] lg:h[400px] relative">
-                    <div className="bg-gradient-to-l from-blue-900 via-transparent to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
-
-                    {/* <Image 
-                        src = "/sf-animation.gif"
-                        alt = "sf animation"
-                        className = "place-self-center rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                        width = {500}
-                        height = {500}
-                    /> */}
+                    {background}
                 </div>
                 
             </div>

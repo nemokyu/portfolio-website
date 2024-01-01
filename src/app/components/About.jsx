@@ -35,7 +35,7 @@ const AboutSection = () => {
               When I&apos;m not studying or coding, I like to calligraphy, doodle, make nail art, and crochet. If I&apos;m not at my desk I like to run, play volleyball, thrift,
               and film/edit Youtube videos. <a href="https://www.youtube.com/channel/UCURQfb9WfX33dvFcIYrN_nw" className="text-[#93A5CF] hover:text-white">Check out my Youtube!</a>
           </p>
-
+          
         </div>
       </div>
     </section>
