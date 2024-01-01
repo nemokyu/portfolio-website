@@ -5,20 +5,19 @@ import SkillCard from "./SkillCard";
 
 
 const skillsData = [
-    { src: "/skills/css.png", alt: "CSS" },
-    { src: "/skills/figma.png", alt: "Figma" },
-    { src: "/skills/graphql.png", alt: "GraphQL" },
     { src: "/skills/html.png", alt: "HTML" },
-    { src: "/skills/java.png", alt: "Java" },
     { src: "/skills/javaScript.png", alt: "JavaScript" },
+    { src: "/skills/css.png", alt: "CSS" },
+    { src: "/skills/python.png", alt: "Python" },
+    { src: "/skills/java.png", alt: "Java" },
+    { src: "/skills/swift.png", alt: "Swift" },
+    { src: "/skills/react.png", alt: "React" },
+    { src: "/skills/R.png", alt: "R" },
     { src: "/skills/mongodb.png", alt: "MongoDB" },
     { src: "/skills/node.png", alt: "Node.js" },
-    { src: "/skills/python.png", alt: "Python" },
-    { src: "/skills/r.png", alt: "R" },
-    { src: "/skills/react.png", alt: "React" },
-    { src: "/skills/swift.png", alt: "Swift" },
     { src: "/skills/tailwind.png", alt: "Tailwind CSS" },
     { src: "/skills/typeScript.png", alt: "TypeScript" },
+    { src: "/skills/figma.png", alt: "Figma" },
     // ... continue for other skill objects
   ];
   
@@ -29,12 +28,12 @@ const Skills = () => {
   
   
     const cardVariants = {
-      initial: { y: 50, opacity: 0.5 },
+      initial: { y: 50, opacity: 0.2 },
       animate: { y: 0, opacity: 1 },
     };
   
     return (
-      <section id="projects">
+      <section className="skill-absolute top-4" id="projects">
         
         <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12 ">
          Tech Skills 
@@ -46,7 +45,7 @@ const Skills = () => {
               variants={cardVariants}
               initial="initial"
               animate={isInView ? "animate" : "initial"}
-              transition={{ duration: 0.3, delay: index * 0.4 }}
+              transition={{ duration: 0.1, delay: index * 0.1 }}
             >
                 <SkillCard src={skill.src} alt={skill.alt} />           
             </motion.li>

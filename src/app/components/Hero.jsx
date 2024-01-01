@@ -6,7 +6,7 @@ import background from './background';
 
 const Hero = () => {
   return (
-    <section className="h-screen flex items-center justify-center">
+    <section className="h-screen flex items-center justify-center" id="home">
         <div className ="grid grid-cols-1 sm:grid-cols-12">
             <div className ="col-span-7 place-self-center text-center sm:text-left">
                 
@@ -21,9 +21,7 @@ const Hero = () => {
                       1000,
                       'Software Developer',
                       1000,
-                      'dedicated',
-                      1000,
-                      'driven',
+                      'driven individual',
                       1000,
                       'Nomin Ganzorig',
                       1000,
@@ -31,8 +29,6 @@ const Hero = () => {
                       1000,
                       'resilient',
                       1000,
-                      'hard-working',
-                      1000, 
                     ]}ß
                       wrapper="span"
                       speed={10}

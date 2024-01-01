@@ -5,6 +5,11 @@ import NavLink from './NavLink';
 import MenuDropDown from './menuDropDown';
 const navLinks = [
 {
+    title: "Home",
+    href: "#home"
+},
+
+{
     title: "About",
     href: "#about"
 },
@@ -33,8 +38,10 @@ const handleNavLinkClick = (e, href) => {
 return (
     
     <nav className='fixed top-0 left-0 right-0 z-10 bg-[#1e1f32] bg-opacity-80'>
-        <div className='flex flex-wrap items-center justify-between mx-auto p4-4 mr-5 '>
-            <Link href={"/"} className='text-3xl md:text-5xl px-10 font-semibold text-white'>✩</Link>
+        <div className='flex flex-wrap items-center justify-between mx-auto pr-4 mr-5 '>
+            <Link href={"/"} className='text-3xl md:text-7xl px-10 font-semibold text-white'> 
+
+             </Link>
             <div className="mobile-menu block md:hidden">
                 {navbarOpen ? (
                     <button onClick={() => setNavbarOpen(false)} className='flex items-center px-3 py-2 mr-8 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white'>

@@ -83,10 +83,10 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section className= "flex h-screen justify-center items-center" id="projects">
+    <section className= "prof-absolute bottom-4 flex h-screen justify-center items-center" id="projects">
        
       <div className="">
-        <h2 className=" text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+        <h2 className=" text-center md:text-4xl font-bold text-white mt-8 mb-8 md:mb-12 font-mononoki">
         𓆝 𓆟 𓆞 𓆝 𓆟 My Projects  𓆝 𓆟 𓆞 𓆝 𓆟
         </h2>
         <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
