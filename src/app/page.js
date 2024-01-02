@@ -17,7 +17,7 @@ export default function Home() {
         <About />
         <Projects />
         <ViewMore />
-        <Skills />
+        <Skills />     
         <Contact />
       </div>
       <Footer className="px-12 py-6"/>
