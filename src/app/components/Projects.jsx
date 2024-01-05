@@ -24,7 +24,7 @@ const projectsData = [
               <a href="https://courses.rice.edu/admweb/!SWKSCAT.cat?p_action=COURSE&p_term=201410&p_crn=17062" className="text-blue-300 hover:text-white hover:underline">Program Design course at Rice Univ</a>. 
               Hence, source code cannot be shared due to confidentiality reasons. 
               However, 
-              <a href="https://nemokyu.github.io/Simon-Interactive-Game/" className="text-blue-300 hover:text-white hover:underline"> 
+              <a href="" className="text-blue-300 hover:text-white hover:underline"> 
                 <b className="text-blue-300"> Program Design Report</b>
               </a> is coming soon ッ!
               </p>),
@@ -36,6 +36,15 @@ const projectsData = [
     image:"/images/projects/simonGame.png",
     gitUrl: "https://github.com/nemokyu/Simon-Interactive-Game.git",
     deployLink: "https://nemokyu.github.io/Simon-Interactive-Game/",
+
+  },
+  {
+    id: 4,
+    title: "Motor Vehicle Crash Data Analysis",
+    description: "Super interesting Data Visualization project where we came up with our original 'Killer Plot' 🤩 where we used R and SQL for data manipulation",
+    image:"/images/projects/stat405.png",
+    gitUrl: "https://github.com/nemokyu/NYC-Toronto-Vehicle-Crash-Data-Analysis",
+    deployLink: "/stat405_finalReport.pdf",
 
   },
   {
@@ -61,17 +70,6 @@ const projectsData = [
             Current Project.
             </p>)
 
-  },
-  {
-    id: 5,
-    title: "Sentiment Analysis Project",
-    description: "Amazon review sentiment analysis",
-    image:"/images/placeholder.png",
-    gitUrl: "",
-    deployLink: "https://nemokyu.github.io",
-    desc: (<p className="text-white"> 
-            Current project.
-            </p>)
   },
 
 ];
