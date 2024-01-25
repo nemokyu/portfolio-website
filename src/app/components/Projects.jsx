@@ -47,28 +47,23 @@ const projectsData = [
     deployLink: "/stat405_finalReport.pdf",
 
   },
+  
   {
-    id: 4,
-    title: "Grade Calculator App",
-    description: "implements a simple math and UI design to keep track of academic records accountable",
-    image:"/images/placeholder.png",
-    gitUrl: "",
-    deployLink: "https://nemokyu.github.io",
-    desc: (<p className="text-white"> 
-            Visual Coming Soon!
-            </p>)
+    id: 5,
+    title: "Houston Astros Datathon Challenge",
+    description: "Used Pandas, Numpy, Geopy libraries and binary classification models to determine relation between travel and performance of MBL teams",
+    image:"/images/projects/astros.png",
+    gitUrl: "https://github.com/nemokyu/Rice-Datathon-2024-Astros-track",
+    deployLink: "https://youtu.be/OvYlotkb0JA",
 
   },
   {
-    id: 5,
-    title: "Augmented reality measuring app",
-    description: "iOS app that measures distance using augmented reality, implemented as part of iOS development course",
+    id: 4,
+    title: "Mobile Game Apps",
+    description: "iOS apps made using Swift, UI in Xcode in completion of App Development Bootcamp. Visuals coming soon!",
     image:"/images/placeholder.png",
-    gitUrl: "",
+    gitUrl: "https://github.com/nemokyu/mobile-app-games.git",
     deployLink: "https://nemokyu.github.io",
-    desc: (<p className="text-white"> 
-            Current Project.
-            </p>)
 
   },
 

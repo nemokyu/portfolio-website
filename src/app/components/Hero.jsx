@@ -38,9 +38,9 @@ const Hero = () => {
                 <p className='text-[#ADB7BE] text-lg sm:text-lg lg:text-xl mb-6 font-mononoki'>
                      I&apos;m a full-stack developer at 
                      <a href="https://riceapps.org/" target="_blank" rel="noopener noreferrer" className='text-[#93A5CF] hover:text-white'> RiceApps </a> 
-                     and Computer Science, Statisics student at 
+                     and a current Computer Science, Statisics student at 
                      <a href="https://engineering.rice.edu/"  target="_blank" rel="noopener noreferrer" className='text-[#93A5CF] hover:text-white'> Rice University</a>,
-                      minoring in Data Science. Reach out for more ☻!
+                      minoring in Data Science. Feel free to reach out ☻!
                     
                 </p>
                 <div >

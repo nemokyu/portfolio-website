@@ -29,7 +29,7 @@ const AboutSection = () => {
               <br />
               <br />
               On top of that, I am deeply inspired by designs that are aesthetically pleasing, creative, and user-centric.
-              In my role as a <span  className="text-[#afecb0]">UX Assistant</span> at Fondren Library, I focus on enhancing the user experience, specifically for the Study Room Reservation System.
+              In my role as a <span  className="text-[#afecb0]">UX Assistant</span> at Fondren Library, I focus on enhancing the user experience, specifically for the Study Room Reservation System through research.
           </p>
           <br />
           <p className="text-base text-[#ADB7BE] font-mononoki relatove">
